@@ -25,6 +25,10 @@
   <img width = 900, src="https://github.com/user-attachments/assets/a3285b4e-9c44-4126-9384-2bada11f4f9b">
 </div>
 
+<br>
+<br>
+<br>
+
 ## 👤 Personal Contribution
 
 > 유세정 (Yoosejeong) – Backend Developer
@@ -47,6 +51,10 @@
 | 점수 → 등급 계산 | `calculateLocalGrade(int score)` |
 
 > 💡 등급 시스템은 `Enum`, `@PrePersist`, `@Scheduled` 등을 적극 활용하여 설계되었습니다.
+
+<br>
+<br>
+<br>
 
 ## Service
 <div align="center">
