@@ -46,7 +46,7 @@
 | 자정 기준 자동 점수 반영 | `updateMemberScoresDaily()` |
 | 점수 → 등급 계산 | `calculateLocalGrade(int score)` |
 
-> 💡 등급 시스템은 `Enum`, `@PrePersist`, `@Scheduled`, `@Transactional` 등을 적극 활용하여 설계되었습니다.
+> 💡 등급 시스템은 `Enum`, `@PrePersist`, `@Scheduled` 등을 적극 활용하여 설계되었습니다.
 
 ## Service
 <div align="center">
