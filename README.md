@@ -25,9 +25,28 @@
   <img width = 900, src="https://github.com/user-attachments/assets/a3285b4e-9c44-4126-9384-2bada11f4f9b">
 </div>
 
-<br>
-<br>
-<br>
+## 👤 Personal Contribution
+
+> 유세정 (Yoosejeong) – Backend Developer
+
+### 🛠️ 등급 시스템 기능 구현
+
+- 유저의 로컬/여행객 등급을 조회하는 API 개발
+- 장소 등록 및 리뷰 작성 시 등급 점수 자동 반영 로직 구현
+- 매일 자정 기준으로 자동 점수 반영되는 스케줄러 작성
+- 점수에 따른 등급 Enum(`IRON`, `BRONZE`, `SILVER` 등) 계산 및 적용 로직 개발
+
+#### ✅ 주요 서비스 함수
+
+| 기능 | 함수명 |
+|------|--------|
+| 유저 등급 조회 | `getUserGrade(Long userId)` |
+| 로컬 등급 점수 갱신 | `updateLocalGrade(Long userId)` |
+| 여행객 등급 점수 갱신 | `calculateTravelerGradeScore(Long userId, ReviewDTO request)` |
+| 자정 기준 자동 점수 반영 | `updateMemberScoresDaily()` |
+| 점수 → 등급 계산 | `calculateLocalGrade(int score)` |
+
+> 💡 등급 시스템은 `Enum`, `@PrePersist`, `@Scheduled`, `@Transactional` 등을 적극 활용하여 설계되었습니다.
 
 ## Service
 <div align="center">
